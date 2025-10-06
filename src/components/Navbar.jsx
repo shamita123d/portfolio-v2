@@ -14,7 +14,7 @@ const Navbar = ({ setDarkMode, darkMode }) => {
       {/* Profile Picture and Name */}
       <div className="flex items-center">
         <img
-          className="h-10 w-10 rounded"
+          className="h-10 w-10 rounded mt-2"
           src={ShamitaDeogadelogo}
           alt="profilepic"
         />
@@ -44,66 +44,71 @@ const Navbar = ({ setDarkMode, darkMode }) => {
       </div>
 
       {/* Mobile Menu */}
+      {/* Mobile Menu */}
       {menuOpen && (
-        <div className="absolute top-14 right-6 bg-gray-800 p-4 rounded-lg flex flex-col items-center gap-4 lg:hidden">
+        <div className="absolute top-14 right-6 bg-gray-800 p-4 rounded-lg flex flex-col items-center gap-4 lg:hidden text-3xl">
           <a
             href="https://www.linkedin.com/in/shamitadeogade/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue-600 text-white"
+            className="hover:text-blue-600 transition-all duration-300"
           >
-            <FaLinkedin />
+            <FaLinkedin className="w-8 h-8" />
           </a>
           <a
             href="https://github.com/shamita123d"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-400 text-white"
+            className="hover:text-gray-400 transition-all duration-300"
           >
-            <FaGithub />
+            <FaGithub className="w-8 h-8" />
           </a>
           <a
             href="https://leetcode.com/u/shamita_deogade/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-orange-400 text-white"
+            className="hover:text-orange-400 transition-all duration-300"
           >
-            <SiLeetcode />
+            <SiLeetcode className="w-8 h-8" />
           </a>
         </div>
       )}
 
-      {/* Icons and Dark Mode Button (Large Screen) */}
-      <div className="m-8 flex items-center justify-center gap-4 text-2xl hidden lg:flex">
+      {/* Large Screen Icons */}
+      <div className="m-8 flex items-center justify-center gap-6 text-3xl hidden lg:flex">
         <a
           href="https://www.linkedin.com/in/shamitadeogade/"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-blue-600"
+          className="hover:text-blue-600 transition-all duration-300"
         >
-          <FaLinkedin />
+          <FaLinkedin className="w-9 h-9" />
         </a>
         <a
           href="https://github.com/shamita123d"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-gray-400"
+          className="hover:text-gray-400 transition-all duration-300"
         >
-          <FaGithub />
+          <FaGithub className="w-9 h-9" />
         </a>
         <a
           href="https://leetcode.com/u/shamita_deogade/"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-orange-400"
+          className="hover:text-orange-400 transition-all duration-300"
         >
-          <SiLeetcode />
+          <SiLeetcode className="w-9 h-9" />
         </a>
         <button
           className="text-white p-2 rounded-full"
           onClick={() => setDarkMode(!darkMode)}
         >
-          {darkMode ? <MdLightMode /> : <CgDarkMode />}
+          {darkMode ? (
+            <MdLightMode className="w-9 h-9" />
+          ) : (
+            <CgDarkMode className="w-9 h-9" />
+          )}
         </button>
       </div>
     </nav>

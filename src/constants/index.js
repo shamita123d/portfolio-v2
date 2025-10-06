@@ -1,64 +1,38 @@
-import project2 from "../assets/projects/project-2.jpg";
+import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
-export const HERO_CONTENT = `As a fresh graduate and an enthusiastic full-stack developer, I am passionate about building durable, scalable web applications. I aim to create innovative solutions that drive business growth and enhance user experiences. With a strong foundation in both front-end and back-end development, I am eager to contribute to dynamic projects. My focus is on continuously learning and growing as a developer to deliver high-quality, impactful work.`;
+export const HERO_CONTENT = `A Computer Science and Engineering graduate and Full-Stack Java Developer passionate about building scalable web applications. Skilled in React, Java Spring Boot, and MySQL, I aim to deliver clean code, seamless user experiences, and make an impact. Eager to learn and contribute to innovative projects.`;
 
 export const ABOUT_TEXT = `
-      With expertise in frameworks like React and Spring Boot, I believe in continuous learning and development. I enjoy solving complex problems, collaborating with teams, and delivering high-quality, user-friendly applications.
+      I’m Shamita Deogade, a Computer Science and Engineering graduate from Priyadarshini J.L. College of Engineering, Nagpur (2025), and a Full Stack Developer skilled in React, Angular, Java Spring Boot, and MySQL. I have hands-on experience building scalable, user-centric applications through internships and training programs. I thrive in collaborative environments, enjoy tackling complex problems, and aim to contribute to innovative projects that create real-world impact.
    `;
+   
+   export const ABOUT_TECH = [
+     "Javascript",
+     "React.js",
+     "Angular","Tailwind CSS",
+     "Java","Hibernate",
+     "Spring Boot",
+     "MySQL","Github"
+   ];
+
 
 export const EXPERIENCES = [
-  // {
-  //   year: "2023 - Present",
-  //   role: "Senior Full Stack Developer",
-  //   company: "Google Inc.",
-  //   description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-  //   technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  // },
-  //{
-  //   year: "2022 - 2023",
-  //   role: "Frontend Developer",
-  //   company: "Adobe",
-  //   description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-  //   technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  // },
-  // {
-  //   year: "2021 - 2022",
-  //   role: "Full Stack Developer",
-  //   company: "Facebook",
-  //   description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-  //   technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  // },
   {
-    year: "Feb 2025 - present",
+    year: "2025",
     role: "Web Development Intern",
     company: "ICEICO Technologies",
-    description: `Contributing to the development of web applications using HTML,CSS,Boostrap,JavaScript, React.js,Springboot. Managing databases and implementing data storage solutions using Mysql. Working closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Boostrap", "Springboot", "JavaScript"],
+    description: `Contributed to the development of web applications and worked closely with technologies to prioritize features and enhancements.`,
+    technologies: ["HTML", "CSS", "Bootstrap", "JavaScript"],
   },
-];
+  {
+    year: "2024",
+    role: "Full Stack Java Developer trainee",
+    company: "Symbiosis Skill and Professional University",
+    description: `Developed a scalable white-label payment gateway using Spring Boot, enhancing security, performance, and user experience while reducing reliance on third-party platforms. Built a robust backend enabling seamless integration with multiple payment methods.
 
-export const PROJECTS = [
-  // {
-  //   title: "Gas Lekage Detection System",
-  //   image: project1,
-  //   description:
-  //     "A fully functional System with features like  with features such as alert notification,emits the dangerous gas out.",
-  //   technologies: ["Arduino Software", "Microcontroller"],
-  // },
-  {
-    title: "Weather Forcasting Application",
-    image: project2,
-    description:
-      "An application for forcasting weather, with features such as gives current weather forcast,weather forcast by days and hours,also provide notification in heavy condtion.",
-    technologies: ["html", "CSS", "Javascript", "Springboot", "Mysql"],
-  },
-  {
-    title: "SwiftPay",
-    image: project5,
-    description:
-      "This Angular and Spring Boot-based white-label payment gateway offers a customizable and scalable solution for businesses to integrate payment processing, enhancing security, performance, and user experience while minimizing reliance on third-party platforms.Developed a robust backend using Spring Boot, facilitating seamless integration with multiple payment methods.",
+`,
     technologies: [
       "Angular",
       "Spring Boot",
@@ -68,33 +42,110 @@ export const PROJECTS = [
       "Tailwind CSS",
     ],
   },
+];
+
+export const PROJECTS = [
   {
-    title: "Memora2.0",
-    image: project4,
+    title: "FlexiMartX [Scalable Microservices-Based E-com Platform]",
+    image: project2,
     description:
-      "Developed a secure and user-friendly contact management application designed to streamline the storage, organization, and retrieval of contacts.Designed a RESTful backend using Spring Boot and MySQL.Implemented role-based access control and authentication using Spring Security",
+      "Developed an e-commerce platform with microservices architecture, product, cart, order, and payment services with a responsive React.js frontend, Spring Boot backend, deployed on AWS with Docker, Redis caching, and Kafka messaging.",
     technologies: [
-      "SpringBoot",
-      "SpringSecurity",
-      "MySQL",
-      " EmailService",
-      "Thymleaf",
+      "React.js",
+      "Springboot",
+      "Mysql",
+      "MongoDB",
+      "Redis",
+      "Kafka",
+      "Docker",
+      "aws",
     ],
+    link: "https://github.com/shamita123d/FlexiMartX",
   },
   {
-    title: "Student Management System",
+    title: "ResuRankify [AI-powered Resume Ranking System",
     image: project3,
     description:
-      "A Student Management System provides a graphical user interface (GUI) for managing student records. Also store data in database.",
-    technologies: ["Java", "JDBC", "Swing", "Mysql"],
+      "•Developed an intelligent resume ranking system using NLP, BERT, SpaCy, and machine learning, with Flask backend,React frontend, and Streamlit for interactive UI to match candidate skills with job descriptions. ",
+    technologies: [
+      "NLP",
+      "BERT",
+      "SpaCy",
+      " Flask",
+      " React",
+      "Streamlit",
+      "Machine Learning",
+    ],
+    link: "https://github.com/shamita123d/ResuRankify",
   },
-  // {
-  //   title: "TODO List",
-  //   image: project4,
-  //   description:
-  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-  //   technologies: ["React", "Vite", "Tailwind CSS", "MySQL"],
-  // },
+  {
+    title: "Credenza [Online Banking System]",
+    image: project4,
+    description:
+      "Developed a secure, full-stack, microservices-based online banking platform with account management, fund transfers,transaction history, analytics dashboards, JWT + Spring Security and deployed via Docker on AWS. ",
+    technologies: [
+      "Spring Boot",
+      "React",
+      " MySQL",
+      "JWT",
+      " Redis",
+      "Kafka",
+      "Chart.js",
+      "AWS",
+    ],
+    link: "https://github.com/shamita123d/Credenza",
+  },
+  {
+    title: "Brumepad [Cloud-Based Code Editor]",
+    image: project5,
+    description:
+      "Developed a cloud-native code editor with multi-language support, real-time collaboration via WebSockets, RESTfulAPIs, React frontend, Node.js backend, and deployed using Docker with CI/CD pipelines. ",
+    technologies: [
+      "React",
+      "Node",
+      "WebSocket",
+      "Docker",
+      "Rest Api",
+      "CI/CD.",
+    ],
+    link: "https://github.com/shamita123d/BrumePad",
+  },
+];
+
+export const QUALIFICATIONS = [
+  {
+    title: "B.Tech in Computer Science & Engineering",
+    institution: "RTMNU",
+    year: "2021 – 2025",
+    grade: "8.18 CGPA",
+    
+  },
+  {
+    title: "12th (General Science)",
+    institution: "Gujrati Girl's Jr College,Nagpur",
+    year: "2020 – 2021",
+    grade: "80.67%",
+   
+  },
+  {
+    title: "10th",
+    institution: "JD Convent School, Nagpur",
+    year: "2019",
+    grade: "73%",
+   
+  },
+];
+
+export const ACHIEVEMENT = [
+  {
+    title: "Full stack Java Developer🏆",
+    grade:
+      "https://drive.google.com/drive/folders/1Wl8RgDreNrns5uIMCfW-8Ykrrgs55zDx",
+  },
+  {
+    title: "Leetcode 50 days batch🎖️", 
+    grade: "https://leetcode.com/u/shamita_deogade/",
+  },
 ];
 
 export const CONTACT = {

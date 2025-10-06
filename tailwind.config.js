@@ -1,4 +1,4 @@
-import { SwitchLayoutGroupContext } from 'framer-motion';
+// import { SwitchLayoutGroupContext } from 'framer-motion';
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -6,9 +6,9 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
-      animation: {
-        "spin-slow": "spin 5s linear infinite",
-      },
+      // animation: {
+      //   "spin-slow": "spin 5s linear infinite",
+      // },
     },
   },
   plugins: [],

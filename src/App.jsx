@@ -4,9 +4,10 @@ import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
-
-import Technologies from "./components/Technologies";
+import Qualification from "./components/Qualification";
+import Achievement from "./components/Achievement";
 import Experience from "./components/Experience";
+import Technologies from "./components/Technologies";
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -35,13 +36,12 @@ export default function App() {
       <Navbar setDarkMode={setDarkMode} darkMode={darkMode} />
       <Hero />
       <About />
-      {/* <Skills /> */}
       <Technologies />
-       <Experience /> 
+      <Experience />
       <Projects />
-      {/* <Testimonials /> */}
+      <Qualification />
+      <Achievement />
       <Contact />
-      {/* <Footer /> */}
     </div>
   );
 }
