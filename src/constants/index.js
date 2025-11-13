@@ -49,7 +49,7 @@ export const PROJECTS = [
     title: "FlexiMartX [Scalable Microservices-Based E-com Platform]",
     image: project2,
     description:
-      "Developed an e-commerce platform with microservices architecture, product, cart, order, and payment services with a responsive React.js frontend, Spring Boot backend, deployed on AWS with Docker, Redis caching, and Kafka messaging.",
+      "Developed an e-commerce platform with microservices architecture, product, cart, order, and payment services with a responsive React.js frontend, Spring Boot backend, containerised with Docker, Redis caching, and Kafka messaging.",
     technologies: [
       "React.js",
       "Springboot",
@@ -57,8 +57,7 @@ export const PROJECTS = [
       "MongoDB",
       "Redis",
       "Kafka",
-      "Docker",
-      "aws",
+      "Docker"
     ],
     link: "https://github.com/shamita123d/FlexiMartX",
   },
@@ -82,7 +81,7 @@ export const PROJECTS = [
     title: "Credenza [Online Banking System]",
     image: project4,
     description:
-      "Developed a secure, full-stack, microservices-based online banking platform with account management, fund transfers,transaction history, analytics dashboards, JWT + Spring Security and deployed via Docker on AWS. ",
+      "Developed a secure, full-stack, microservices-based online banking platform with account management, fund transfers,transaction history, analytics dashboards, JWT + Spring Security and containerised via Docker. ",
     technologies: [
       "Spring Boot",
       "React",
@@ -90,8 +89,7 @@ export const PROJECTS = [
       "JWT",
       " Redis",
       "Kafka",
-      "Chart.js",
-      "AWS",
+      "Chart.js"
     ],
     link: "https://github.com/shamita123d/Credenza",
   },
